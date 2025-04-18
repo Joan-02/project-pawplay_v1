@@ -5,7 +5,9 @@ import { Event } from "./eventPage/Event.tsx";
 import { Profile } from "./Profile.tsx";
 import { App } from "./App.tsx";
 import { EventsMainPage } from "./EventsMainPage.tsx";
+import { ProfileSelection } from "./ProfileSelection.tsx";
 import "./index.css";
+import { MyEventsPage } from "./MyEventsPage.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
@@ -15,6 +17,8 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/login" element={<Login />} />
         <Route path="/event/:userEventId" element={<Event />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/profile-selection" element={<ProfileSelection />} />
+        <Route path="/my-events" element={<MyEventsPage />} />
       </Route>
     </Routes>
   </BrowserRouter>

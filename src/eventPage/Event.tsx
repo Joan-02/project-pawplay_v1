@@ -3,16 +3,16 @@ import { EventCategory } from "../eventCategory/EventCategory";
 import { ProfileCard } from "../components/profileCard/ProfileCard";
 import { Button } from "../components/button/Button";
 import "./Event.css";
-import arrow from "../imgs/arrow-left.svg";
-import share from "../imgs/share.svg";
-import footprintBlack from "../imgs/footprint-dog--black.svg";
+import arrow from "../imgs/icons-event-page/arrow-left.svg";
+import share from "../imgs/icons-event-page/share.svg";
+import footprintBlack from "../imgs/icons-event-page/footprint-dog--black.svg";
 import parkImg from "../imgs/centralPark.jpg";
-import location from "../imgs/location.svg";
-import tag from "../imgs/tag.svg";
-import description from "../imgs/description.svg";
-import time from "../imgs/time.svg";
-import calendar from "../imgs/calendar.svg";
-import dog from "../imgs/dog-side.svg";
+import location from "../imgs/icons-event-page/location.svg";
+import tag from "../imgs/icons-event-page/tag.svg";
+import description from "../imgs/icons-event-page/description.svg";
+import time from "../imgs/icons-event-page/time.svg";
+import calendar from "../imgs/icons-event-page/calendar.svg";
+import dog from "../imgs/icons-event-page/dog-side.svg";
 
 export const Event = () => {
   const params = useParams();

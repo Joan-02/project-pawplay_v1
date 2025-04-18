@@ -3,7 +3,7 @@ import { capitalizeFirstLetter } from "../../functions/Functions";
 import { SidebarProps } from "../../types";
 import "../../index.css";
 import "./Sidebar.css";
-import close from "../../imgs/close-thick.svg";
+import close from "../../imgs/icons-event-page/close-thick.svg";
 
 export const Sidebar = ({
   filterParams,
