@@ -1,4 +1,6 @@
 import { EventCard, CardData } from "./components/card/EventCard";
+import "./MyEventsPage.css";
+import "./index.css";
 
 export const MyEventsPage = () => {
   const exampleEventData: CardData = {
@@ -14,9 +16,17 @@ export const MyEventsPage = () => {
   };
   return (
     <>
-      <EventCard event={exampleEventData} />
-      <EventCard event={exampleEventData} />
-      <EventCard event={exampleEventData} />
+      <div className="content-page">
+        <h1 className="section-title">My upcoming events</h1>
+        <div className="events-container">
+          <EventCard event={exampleEventData} />
+          <EventCard event={exampleEventData} />
+          <EventCard event={exampleEventData} />
+          <EventCard event={exampleEventData} />
+          <EventCard event={exampleEventData} />
+          <EventCard event={exampleEventData} />
+        </div>
+      </div>
     </>
   );
 };
